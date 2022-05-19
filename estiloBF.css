@@ -1,0 +1,96 @@
+body
+{
+    background: #e0e8eb;
+    font: 1em Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    width: 900px;
+}
+/*   */
+
+/*formata a parte do cabelhado da pagina*/
+#ParteComumSuperior
+{
+    background: #2b5669;
+    text-align: Center;
+    margin: 0 auto;
+}
+
+/*formata a parte do cabeçalho que fica no logotipo*/
+#logotipo
+{
+    padding: 10px;
+    color:rgb(24, 28, 48);
+}
+
+#menu
+{
+    border: 2 px red;
+    padding: 10px;
+}
+   
+#Conteudo
+{
+    border: 10px red;
+    text-align: left;
+    padding: 10px;
+}
+
+
+#ConteudoEspecifico
+{
+    border: 10px red;
+    background:  #b0c1c7;
+    padding: 10px;
+    margin: 0px auto;
+
+
+}
+
+/*   */
+
+ #rodape
+ {
+    margin: 0 auto; 
+    background: #afb2b3;
+    text-align: center;
+    
+  }
+
+
+  #fontes
+    {
+      background: #abcdda;
+      padding: 20 px;
+      text-align: right;
+      font-size: 70%
+     
+   }
+
+ /*
+Formatacao dos links do menu
+ */
+  /*muda a formatacao dos links antes e depois de visitados */
+  /* apenas os links que estiverem naos menus*/
+ #menu a:link,  #menu a:visited  
+ {
+    font-size: 110%;
+    color:#a5abad;
+    padding: 10px 12px; /*10 pixeis na inferior e superior e 12 px nas laterais*/
+ }
+
+ #menu a:hover /*quando passa por cima do link */ 
+{
+background: white;
+}
+
+#menu a/*retira as formatações automaticas de link visitado*/
+{
+   text-decoration: none;
+
+}
+
+/*formatação das entradas de texto do formulário - largura */
+input 
+{
+    width: 50px;
+}

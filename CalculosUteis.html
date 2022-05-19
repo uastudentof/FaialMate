@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="estiloBF.css">
+    <script src="Calculos.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+   
+    <div id="ParteComumSuperior">
+    
+        <div Id="logotipo">
+            <h1> FAIALMat</h1> 
+        </div>
+        <div id="menu">
+    
+            <a href="index.html"> Página Inicial</a>      
+            <a href="CalculosUteis.html"> Calculos Úteis </a>
+            <a href="DesafiosMatematicos.html"> Desafios Matemáticos</a>
+            <a href="MatematicosFamosos.html"> Matemáticos Famosos</a>
+            <a href="LigacoesExternas.html"> Ligações Externas </a>
+            
+    
+        </div>
+    </div>
+        
+    
+    <div id=ConteudoEspecifico>
+        <h1>Calculos Úteis</h1>
+        <div id=Áreas>
+            <h2>Áreas</h2> 
+            <hr><hr>
+            <h3>Área de um retângulo</h3> 
+            comprimento <input type="text" id=comprimento>
+            largura <input type="text" id=largura>  
+            <button onclick="areaRetangulo()"> Calcula</button>
+            Area = <input type="text" id="ResultadoAreaRetangulo" disabled="disabled">
+            
+            <hr>
+            <h3>Área de um Círculo</h3>
+            raio <input type="text" id=raio>
+            <button onclick="areaCirculo()"> Calcula</button>
+            Area = <input type="text" id="ResAreaCirculo" disabled="disabled">
+            <hr>
+            <h3>Área de um triângulo</h3>
+            base <input type="text" id=base>
+            altura=<input type="text" id=altura>
+            <button onclick="areaTriangulo()"> Calcula</button>
+            Area = <input type="text" id="ResAreaTriangulo" disabled="disabled">
+
+            <hr>
+            <h3>Área de um trapézio</h3>
+            base Maior=<input type="text" id=baseM>
+            base menor=<input type="text" id=basem> 
+            altura=<input type="text" id=alturaT>
+            <button onclick="areaTrapezio()">Calcula</button>
+            Area = <input type="text" id="ResAreaTrapezio" disabled="disabled">
+
+            <hr><hr>
+        </div>
+        <div id=TeoremaPitagoras>
+            <h2>Teorema de Pitágoras</h2>
+            <h3>Calculo de hipotenusa</h3>
+            Cateto1= <input type="text" id=cateto1A>
+            cateto2=<input type="text" id=cateto2A>
+            <button onclick="CalculoHipotenusa()"> Calcula</button>
+            Hipotenusa = <input type="text" id="ResHipotenusa" disabled="disabled">
+
+            <h3>Calculo de cateto</h3>  
+            Cateto1= <input type="text" id=cateto1B>
+            hipotenusa=<input type="text" id=hipotenusaB> 
+            <button onclick="CalculoCateto()"> Calcula</button>
+            Cateto2 = <input type="text" id="ResCateto" disabled="disabled">
+            <hr>
+        </div>
+    </div>
+    <div id=rodape>    
+        <p>**Pagina da responsabilidade de Bruno Faria - Estudante 904060 LEI**</p>
+        
+
+    </div>
+</body>
+</html>
